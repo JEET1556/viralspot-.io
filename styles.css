@@ -1,0 +1,24 @@
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.category-btn.active {
+  background-color: rgb(14, 165, 233);
+  color: white;
+}
+
+.tool-image {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
